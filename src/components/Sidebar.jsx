@@ -1,6 +1,6 @@
 import React from "react";
-import { Avatar } from "@chakra-ui/react";
 import "./Sidebar.css";
+import { Avatar } from "@mui/material";
 
 function Sidebar() {
   const recentItem = (topic) => (
