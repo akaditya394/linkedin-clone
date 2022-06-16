@@ -14,8 +14,8 @@ import {
   serverTimestamp,
   query,
   orderBy,
+  onSnapshot
 } from "firebase/firestore";
-import { doc, onSnapshot } from "firebase/firestore";
 
 function Feed() {
   const [input, setInput] = useState("");
